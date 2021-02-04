@@ -14,7 +14,7 @@ public class Loop_04 {
 		System.out.println("   구구단   ");
 		System.out.println("----------");
 
-		for (; num1 < 10;) {
+		for (num1 = 1; num1 < 10;) {
 			System.out.print(intDan);
 			System.out.print(" x ");
 			System.out.print(num1);
@@ -22,6 +22,14 @@ public class Loop_04 {
 			System.out.println(intDan * num1);
 			num1 += 1;
 		}
-		System.out.println("==========");
+		System.out.println("----------");
+		for (num1 = 0; num1 <= 5;) {
+			System.out.println(num1);
+			num1 += 1;
+		}
+		System.out.println("----------");
+		for (num1 = 0; num1 <= 5; num1 += 1) {
+			System.out.println(num1);
+		}
 	}
 }
