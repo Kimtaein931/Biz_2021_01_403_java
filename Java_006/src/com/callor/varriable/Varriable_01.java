@@ -27,12 +27,11 @@ public class Varriable_01 {
 		result5 = num2 % num1;
 
 		// 변수에 저장된 결과를 Console에 출력
-		// 30 + 40 = 70
 		System.out.println(num1 + " + " + num2 + " = " + result1);
-		System.out.println(num1 + " * " + num2 + " = " + result2);
+		System.out.println(num1 + " x " + num2 + " = " + result2);
 		System.out.println(num2 + " - " + num1 + " = " + result3);
 		System.out.println(num2 + " / " + num1 + " = " + result4);
-		System.out.println(num2 + " % " + num1 + " = " + result5);
+		System.out.println(num2 + " mod " + num1 + " = " + result5);
 
 	}
 }
