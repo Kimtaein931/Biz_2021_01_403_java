@@ -1,4 +1,4 @@
-package com.callor.varriable;
+package com.callor.variable;
 /*
  * 반복문
  * 똑같은 명령문들로 구성된 코드가 있을 때

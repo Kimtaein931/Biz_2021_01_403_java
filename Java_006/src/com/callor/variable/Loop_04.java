@@ -1,4 +1,4 @@
-package com.callor.varriable;
+package com.callor.variable;
 
 public class Loop_04 {
 
