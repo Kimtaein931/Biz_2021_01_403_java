@@ -18,6 +18,7 @@ public class LupingGame {
 
 	public static void main(String[] args) {
 		int count = 0;
+		int lose = 0;
 		while (true) {
 			Random rnd = new Random();
 			Scanner scan = new Scanner(System.in);
@@ -40,7 +41,9 @@ public class LupingGame {
 				}
 				i++;
 				if (i == 5) {
+					lose += 1;
 					System.out.println("=====You Lose=====");
+					System.out.println("Lose : " + lose + " 번 탈락");
 				}
 			}
 			// }
