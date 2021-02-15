@@ -47,7 +47,9 @@ public class MyGuGuDan {
 			System.out.print(num2);
 			System.out.print(" = ");
 			System.out.println(dan * num2);
+			
 		}
+		System.out.println("===================");
 	}
 
 }
