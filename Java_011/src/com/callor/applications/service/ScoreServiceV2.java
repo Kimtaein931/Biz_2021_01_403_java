@@ -44,7 +44,7 @@ public class ScoreServiceV2 {
 		 * 세 변수의 값을 덧셈하여 intSum에 저장하고 저장된 값을 Console에 출력한다.
 		 */
 		int intSum = intKor + intEng + intMath;
-		System.out.print(intSum);
+		System.out.println(intSum);
 		
 	}
 	
