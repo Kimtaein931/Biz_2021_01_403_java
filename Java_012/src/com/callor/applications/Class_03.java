@@ -1,0 +1,12 @@
+package com.callor.applications;
+
+public class Class_03 {
+
+	public static void main(String[] args) {
+		
+		ClassServiceV3 csV2 = new ClassServiceV3();
+		csV2.input();
+		csV2.algebra();
+	}
+	
+}
