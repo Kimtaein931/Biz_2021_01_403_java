@@ -27,8 +27,6 @@ public class ScoreServiceV1 {
 	// intKor, intEng, intMath에 저장
 	public void input() {
 		
-		
-		
 		System.out.print("국어 점수 입력 >> ");
 		intKor = scan.nextInt();
 		System.out.print("영어 점수 입력 >> ");
@@ -61,7 +59,12 @@ public class ScoreServiceV1 {
 								+ intMath + "\t" 
 									+ intSum + "\t" 
 										+ floatAvg);
+		
+		// %3.2f : 실수값을 출력하는데 
+		// 정수부분 3자리, 소수점 이하 2자리 출력
+		// 소수점 이하 3번째에서 반올림
 		System.out.println("=========================================");
+		System.out.printf("평균 : %3.2f", floatAvg);
 	}
 
 }
