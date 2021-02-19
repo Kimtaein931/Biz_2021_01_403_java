@@ -1,4 +1,4 @@
-package com.callor.applications;
+package com.callor.applications.service;
 
 public class ClassServiceV5 {
 
@@ -15,6 +15,7 @@ public class ClassServiceV5 {
 	 */
 	
 	public float sum(float num1, float num2) {
-		return num1+num2;
+		float sum = num1 + num2;
+		return sum;
 	}
 }

@@ -1,4 +1,4 @@
-package com.callor.applications;
+package com.callor.applications.service;
 
 public class ClassServiceV1 {
 	/*

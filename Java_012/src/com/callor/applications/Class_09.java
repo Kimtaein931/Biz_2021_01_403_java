@@ -2,7 +2,7 @@ package com.callor.applications;
 
 import java.util.Scanner;
 
-import com.callor.applications.ClassServiceV7;
+import com.callor.applications.service.ClassServiceV7;
 
 public class Class_09 {
 
