@@ -15,7 +15,13 @@ public class HomeWork_01 {
 		 * 5. 소수인 수들의 합을 계산하여 출력
 		 */
 		
-	
+		PrimeServiceV2 psV2 = new PrimeServiceV2();
+		Random rnd = new Random();
+		int[] num = new int[100];
+		for(int i = 0; i < num.length; i++) {
+			num[i] = rnd.nextInt(100) + 1;
+		}
+		psV2.prime(num);
 		
 	}
 	
