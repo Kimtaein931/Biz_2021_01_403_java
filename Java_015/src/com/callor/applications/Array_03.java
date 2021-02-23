@@ -14,7 +14,7 @@ public class Array_03 {
 		for (int i = 0; i < intNums.length; i++) {
 			intNums[i] = rnd.nextInt(10) + 1;
 		}
-
+ 
 		System.out.print("1 ~ 10 중 숫자 입력 : ");
 		int keyNum = scan.nextInt();
 		

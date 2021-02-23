@@ -18,6 +18,7 @@ public class Array_04 {
 		System.out.print("1 ~ 10 중 숫자 입력 : ");
 		int keyNum = scan.nextInt();
 		int count = 0;
+	 
 		/*
 		 * 변수는 앞에서 어떤 값을 저장했더라도 가장 마지막에 대입한 값만 가지고있다.
 		 */

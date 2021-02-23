@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Array_011 {
 
 	public static void main(String[] args) {
-
+		
 		Random rnd = new Random();
 		int[] intNums = new int[100];
 		for (int i = 0; i < intNums.length; i++) {

@@ -12,14 +12,14 @@ public class Array_01 {
 		 * 3. Scanner 클래스를 사용하여 키보드를 통해 1 ~ 10까지 중 정수를 입력받아
 		 *    입력받은 정수가 배열 intNums에 몇 개 저장되어 있는지 찾아 개수를 출력
 		 */
-
+ 
 		// 인스턴스 변수 생성 및 초기화
 		Scanner scan = new Scanner(System.in);
 		Random rnd = new Random();
 
 		// 배열 생성
 		int[] intNums = new int[100];
-
+		
 		// 0 ~ (intNums.length - 1) 횟수만큼 반복문을 실행
 		/*
 		 * 0 ~ intNums.length 까지의 정수를 만들어서 intNums의 위치값으로 정하고

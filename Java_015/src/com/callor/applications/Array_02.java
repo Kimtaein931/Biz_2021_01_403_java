@@ -13,7 +13,7 @@ public class Array_02 {
 
 		// 100개의 요소를 저장할 수 있는 배열 생성
 		int[] intNums = new int[100];
-
+		 
 		// (0 ~ intNums.length -1) 까지 중 1 ~ 10 숫자 순차적으로 Random 생성
 		for (int i = 0; i < intNums.length; i++) {
 			// Random클래스 안의 nextInt() method를 사용하여 1 ~ 10 중 임의 값 대입
