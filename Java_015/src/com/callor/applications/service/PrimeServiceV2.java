@@ -2,16 +2,21 @@ package com.callor.applications.service;
 
 public class PrimeServiceV2 {
 
-	public void prime(int[] num) {
-		int sum = 0;
-		int i = 0;
-		for (i = 2; i < num.length; i++) {
-			boolean byes = num[i - 2] % i == 0;
-			if (!byes) {
-				sum += num[i];
-				System.out.println(num[i]);
+	public int prime(int num) {
+
+		// if(소수이면) return num;
+		// else return -1;
+
+		for (int i = 2; i < num; i++) {
+			// true 이면 소수가 아니다
+			if (num % i == 0) {
+				// prime() method 실행을 중단하고
+				// main() method에게 -1을 되돌려줘라
+				return -1;
 			}
 		}
-		System.out.println("합계 : " + sum);
+		// num값이 소수가 아니면 for() 반복문을 모두 수행한 뒤
+		// 여기에 다다르면 num값을 그대로 return 하라
+		return num;
 	}
 }
