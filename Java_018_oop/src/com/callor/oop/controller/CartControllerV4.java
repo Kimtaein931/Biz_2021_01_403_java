@@ -73,7 +73,6 @@ public class CartControllerV4 {
 		System.out.println("===============================");
 		System.out.println("장바구니");
 		System.out.println("===============================");
-		System.out.println("=============================");
 		System.out.println("이름\t상품\t수량\t가격");
 		System.out.println("===============================");
 		for (int i = 0; i < 3; i++) {
