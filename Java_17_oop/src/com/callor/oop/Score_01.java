@@ -46,7 +46,9 @@ public class Score_01 {
 				System.out.print("수학 성적 : ");
 				String strmath = scan.nextLine();
 				try {
+					// 1. nint intMath = Integer.valueOf(strmath);가 정상 입력이 된다면
 					int intMath = Integer.valueOf(strmath);
+					// sVO.intMath에 intMath값을 대입하고 break;
 					sVO.intMath = intMath;
 					break;
 				} catch (Exception e) {
