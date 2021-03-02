@@ -13,11 +13,12 @@ public class CartServiceV1 {
 	CartVO cartVO = new CartVO();
 
 	public void inputCart() {
+		System.out.println("===============================");
+		System.out.println("장바구니에 담을 데이터 입력하기");
+		System.out.println("===============================");
 		for (int i = 0; i < 3; i++) {
-			System.out.println("===============================");
-			System.out.println("장바구니에 담을 데이터 입력하기");
-			System.out.println("===============================");
 			cartVO = new CartVO();
+			System.out.println((i + 1) + " 번 상품입력");
 			System.out.print("이름 입력 : ");
 			String strUserName = scan.nextLine();
 			cartVO.setCartUserName(strUserName);
@@ -32,14 +33,12 @@ public class CartServiceV1 {
 					int intQty = Integer.valueOf(strQty);
 					if (intQty < 2) {
 						System.out.println("수량은 2개 이상 입력해주십시오.");
-						continue;
 					} else {
 						cartVO.setCartQty(intQty);
 						break;
 					}
 				} catch (Exception e) {
 					System.out.println("수량은 숫자로 입력해주십시오.");
-					continue;
 				}
 			}
 			while (true) {
@@ -49,14 +48,14 @@ public class CartServiceV1 {
 					int intPrice = Integer.valueOf(strPrice);
 					if (intPrice < 1000) {
 						System.out.println("가격은 1000원 이상 입력해주십시오.");
-						continue;
+
 					} else {
 						cartVO.setCartPrice(intPrice);
 						break;
 					}
 				} catch (Exception e) {
 					System.out.println("가격은 숫자로 입력해주십시오.");
-					continue;
+
 				}
 			}
 			cartList.add(cartVO);
@@ -69,14 +68,14 @@ public class CartServiceV1 {
 		System.out.println("장바구니 안에 담겨있는 데이터 확인");
 		System.out.println("===============================");
 		System.out.println("이름\t상품\t수량\t가격");
-		for(int i = 0; i < 3; i++) {
+		for (int i = 0; i < 3; i++) {
 			cartVO = cartList.get(i);
-			System.out.printf("%s\t%s\t%d\t%d\n",
-					cartVO.getCartUserName(),
-					cartVO.getCartPName(),
+			System.out.printf("%s\t%s\t%d\t%d\n", 
+					cartVO.getCartUserName(), 
+					cartVO.getCartPName(), 
 					cartVO.getCartQty(),
 					cartVO.getCartPrice());
 		}
-		
+
 	}
 }
