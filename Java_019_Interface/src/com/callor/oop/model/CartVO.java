@@ -63,6 +63,12 @@ public class CartVO {
 	public void setTotal(int total) {
 		this.total = total;
 	}
+	
+	@Override
+	public String toString() {
+		return "CartVO [userName=" + userName + ", productName=" + productName + ", standard=" + standard + ", date="
+				+ date + ", time=" + time + ", qty=" + qty + ", price=" + price + ", total=" + total + "]";
+	}
 
 	
 	
