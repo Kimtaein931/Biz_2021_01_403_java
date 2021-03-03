@@ -33,7 +33,7 @@ public class MenuServiceV1 implements MenuService {
 			}
 			while (true) {
 				try {
-					int intMenu = Integer.valueOf(strMenu);
+					Integer intMenu = Integer.valueOf(strMenu);
 					if (intMenu >= 1 && intMenu <= 3) {
 						return intMenu;
 					} else {
