@@ -11,10 +11,6 @@ public class CartServiceV1 implements CartService {
 
 	private List<CartVO> cartList;
 	private Scanner scan;
-	int intQty = 0;
-	int intPrice = 0;
-	String strPName;
-	String strQty;
 
 	public CartServiceV1() {
 		cartList = new ArrayList<CartVO>();
@@ -29,8 +25,11 @@ public class CartServiceV1 implements CartService {
 		System.out.print("구매자 : ");
 		String strUserName = scan.nextLine();
 		System.out.print("상품 : ");
-		strPName = scan.nextLine();
+		String strPName = scan.nextLine();
 
+		// 단가를 담을 정수형 변수 선언
+		int intPrice = 0;
+		
 		while (true) {
 			System.out.print("단가 : ");
 			String strPrice = scan.nextLine();
@@ -46,9 +45,12 @@ public class CartServiceV1 implements CartService {
 			}
 		}
 
+		// 수량을 담을 정수형 변수 선언
+		int intQty = 0;
+		
 		while (true) {
 			System.out.print("수량 : ");
-			strQty = scan.nextLine();
+			String strQty = scan.nextLine();
 			try {
 				intQty = Integer.valueOf(strQty);
 				if (intQty < 1) {
