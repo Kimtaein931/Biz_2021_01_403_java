@@ -71,7 +71,7 @@ public class CartServiceV1 implements CartService {
 			}
 		}// while end
 
-		// CartVO를 새롭게 선언한 뒤 고객, 상품, 단가, 수량, 합계 값 넘김
+		// CartVO를 새롭게 선언한 뒤 입력한 고객, 상품, 단가, 수량, 합계 값 넘김
 		CartVO cartVO = new CartVO();
 		cartVO.setUserName(strUserName); // 고객 이름
 		cartVO.setProductName(strPName); // 상품 이름
@@ -79,7 +79,7 @@ public class CartServiceV1 implements CartService {
 		cartVO.setQty(intQty); // 상품 수량
 		cartVO.setTotal(intPrice * intQty); // 합계
 		
-		// cartList 배열에 cartVO 값 넘김
+		// cartList 배열에 cartVO 전체값 넘김
 		cartList.add(cartVO);
 	}
 
