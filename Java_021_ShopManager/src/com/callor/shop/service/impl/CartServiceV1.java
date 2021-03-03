@@ -84,7 +84,7 @@ public class CartServiceV1 implements CartService {
 		cartVO.setQty(intQty); // 상품 수량
 		cartVO.setTotal(intPrice * intQty); // 합계
 		
-		// cartList 배열에 cartVO 전체값 넘김
+		// cartList 배열에 cartVO 추가?
 		cartList.add(cartVO);
 	}
 
