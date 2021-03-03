@@ -9,7 +9,12 @@ import com.callor.shop.service.CartService;
 
 // CartServiceV1에서 CartService 인터페이스를 implements 함 
 public class CartServiceV1 implements CartService {
-
+	/*
+	 * 1. VO 클래스에 선언되어 있는 인스턴스 변수들을 저장할 
+	 * 2. 기억장소를 예약하고 그 기억장소의 주소를 객체변수에 저장한다.
+	 * 3. 결국 cartVO에 실제로 담긴 값은 인스턴스 변수에 저장한 값들이 아니라
+	 *	  인스턴스 변수들의 주소가 된다.
+	 */
 	// 인스턴스 변수 선언'만'
 	private List<CartVO> cartList;
 	private Scanner scan;
