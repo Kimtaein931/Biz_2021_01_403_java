@@ -22,7 +22,7 @@ public class CartEx_01 {
 				cService.printCart();
 			} else if (menu == 3) {
 				cService.printSolo();
-			}
+			} 
 		}
 	}
 }
