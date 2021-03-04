@@ -32,9 +32,10 @@ public class MenuServiceImplV1 implements MenuService {
 			System.out.println(Values.dLine);
 			System.out.println("빛나라 쇼핑몰 2021");
 			System.out.println(Values.sLine);
-			System.out.printf("%d 1. 장바구니 추가\n", Values.MENU_INPUT);
-			System.out.printf("%d 2. 장바구니 전체보기\n", Values.MENU_ALL_LIST);
-			System.out.printf("%d 3. 구매자별 장바구니 보기\n", Values.MENU_USER_LIST);
+			System.out.printf("%d. 장바구니 추가\n", Values.MENU_INPUT);
+			System.out.printf("%d. 장바구니 전체보기\n", Values.MENU_ALL_LIST);
+			System.out.printf("%d. 구매자별 장바구니 보기\n", Values.MENU_USER_LIST);
+			System.out.printf("%d. 장바구니 파일 저장\n", Values.MENU_SAVE_CART_LIST);
 			System.out.println("QUIT : 업무종료");
 			System.out.println(Values.dLine);
 			System.out.print("선택 >> ");
