@@ -17,12 +17,22 @@ public class CartServiceV1 implements CartService {
 	 */
 	// 인스턴스 변수 선언'만'
 	private List<CartVO> cartList;
+	
+	// Scanner 클래스를 사용하여 scan 객체 선언,
+	// private은 부수적인 것, 메모리 관리 차원에서 쓰는 것
 	private Scanner scan;
 
 	// 생성자 method에서 초기화
 	public CartServiceV1() {
 		cartList = new ArrayList<CartVO>();
+		
+		// Scanner 생성자를 호출해서 scan 객체를 초기화
+		// 또는 'scan 객체를 생성했다' 라고 함
 		scan = new Scanner(System.in);
+		
+		// Scanner 클래스를 사용하여 scan 객체를 선언하고 Scanner 생성자를 호출해서 scan 객체를 초기화
+		// Scanner scan = new Scanner(System.in);
+		
 	}
 
 	// 구매자, 상품, 단가, 수량을 입력하는 inputCart() method 생성
