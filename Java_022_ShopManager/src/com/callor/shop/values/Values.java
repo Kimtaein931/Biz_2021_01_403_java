@@ -10,8 +10,8 @@ public class Values {
 	 * 이 프로젝트가 Run 될 때 JVM에 의해서 자동으로 생성되고 사용할 준비가 된다.
 	 * 프로젝트 전체에서 한 번만 생성되고 공유할 수 있다.
 	 */
-	public final static String dLine = "=====================================";
-	public final static String sLine = "-------------------------------------";
+	public final static String dLine = "=======================================================";
+	public final static String sLine = "-------------------------------------------------------";
 	
 	/*
 	 * Menu System에서 사용할 각 항목의 Item 값을 static 변수로 선언을 해두었다.
