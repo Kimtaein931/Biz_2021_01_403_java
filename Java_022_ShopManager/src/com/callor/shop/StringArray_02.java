@@ -12,7 +12,7 @@ public class StringArray_02 {
 		 */
 		String[] cartList = strCart.split(":");
 		for(String s : cartList) {
-			System.out.println(s);
+			System.out.print(s + " ");
 		}
 		
 		/*

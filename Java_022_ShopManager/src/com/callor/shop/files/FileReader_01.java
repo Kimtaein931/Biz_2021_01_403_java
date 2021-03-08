@@ -14,7 +14,7 @@ public class FileReader_01 {
 	public static void main(String[] args) {
 
 		List<String> strLines = new ArrayList<String>();
-		String fileName = "src/com/callor/shop/nums_rnd.txt";
+		String fileName = "src/com/callor/shop/files/nums_rnd.txt";
 		/*
 		 * 파일을 읽을 때 사용하는 클래스
 		 */
