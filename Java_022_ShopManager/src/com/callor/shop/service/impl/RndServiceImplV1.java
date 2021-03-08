@@ -57,6 +57,7 @@ public class RndServiceImplV1 {
 	 * 
 	 * 이제는 saveFileRnd(), saeFIleRnd(파일이름) 두 가지 중 어떤 것이든 호출하여 사용해도 문제가 없어졌다.
 	 */
+	
 	// List에 담긴 숫자들을 파일에 저장하는 method
 	public void saveFileRnd(String fileName) {
 		FileWriter fileWriter = null;
