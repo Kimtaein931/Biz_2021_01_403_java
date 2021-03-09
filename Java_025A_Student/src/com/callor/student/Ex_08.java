@@ -13,12 +13,18 @@ public class Ex_08 {
 	public static void main(String[] args) {
 		Random rnd = new Random();
 		int[] num = new int[100];
-		for(int i = 0; i < num.length; i++) {
-			num[i] = rnd.nextInt(100);
+		for (int i = 0; i < num.length; i++) {
+			num[i] = rnd.nextInt(100) + 10;
 		}
-		for(int i = 0; i < num.length; i++) {
-			System.out.println(num[i]);
+		int j = 0;
+		for(int i = 2; i < num.length; i++) {
+				if(num[j] % i == 0) {
+					System.out.println("난수가 아닙니다.");
+				}else {
+					System.out.println("난수 : " + num[j]);
+				}
+				j++;
+			}
 		}
-
 	}
-}
+
